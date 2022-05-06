@@ -11,7 +11,11 @@ function App() {
             <Dictionary />
           </main>
         </header>
-        <footer className="text-center">Coded by Himja Ved</footer>
+        <footer className="text-center">
+          Coded by Himja Ved Open Sourced on{" "}
+          <a href="https://github.com/himjaved/Dictionary">Github</a> and hosted
+          on <a href="https://curious-pudding-1afc3c.netlify.app/">Netlify</a>
+        </footer>
       </div>
     </div>
   );
