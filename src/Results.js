@@ -3,7 +3,6 @@ import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 import "./Results.css";
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
@@ -28,15 +27,6 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return (
-      <div className="Error-msg">
-        <p>
-          Can't search on this dictionary! Visit{" "}
-          <a href="www.google.com" target="_blank" ref="noreferrer">
-            Google
-          </a>
-        </p>
-      </div>
-    );
+    return null;
   }
 }
