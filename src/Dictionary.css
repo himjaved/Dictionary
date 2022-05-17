@@ -1,10 +1,11 @@
 .Dictionary section {
   color: black;
-  background-color: #f0bdcf;
+  background: linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225));
   border-radius: 5px;
   padding: 30px;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   margin: 20px 0;
+  max-width: 960px;
 }
 .Dictionary .search-bar {
   width: 80%;
